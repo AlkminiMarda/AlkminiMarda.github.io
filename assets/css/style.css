@@ -3,10 +3,12 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
-  /* background-color: #2a2a2a; */
+  color: #141414;
+  background: rgba(172, 171, 171, 1);
 }
-
+.trademark {
+  font-size: 0.3em;
+}
 a {
   color: #501010;
   /* color: #5c9f24; */
@@ -66,6 +68,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   height: 80px;
+  border-bottom: 5px solid #501010;
 }
 #header .logo {
   font-size: 38px;
@@ -95,6 +98,7 @@ h6 {
 /**
 * Desktop Navigation 
 */
+
 .navbar {
   padding: 0;
 }
@@ -264,7 +268,9 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(17, 17, 17, 0.9);
+  /* background: rgba(17, 17, 17, 0.9); */
+  background: rgba(172, 171, 171, 0.7);
+  border: 3px solid #000;
   transition: 0.3s;
   z-index: 999;
 }
@@ -276,12 +282,12 @@ h6 {
 .navbar-mobile ul {
   display: block;
   position: absolute;
-  top: 55px;
+  top: 30px;
   right: 15px;
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: rgba(172, 171, 171, 0);
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -339,157 +345,17 @@ h6 {
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
+.navbar-mobile {
+  margin-left: 50%;
+  margin-bottom: 50%;
+  height: 40%;
+  width: 50%;
+}
 /* Rotating Banner */
 #Banner {
   padding-bottom: 0;
   margin-bottom: 0;
 }
-#slider {
-  overflow: hidden;
-}
-#slider figure {
-  position: relative;
-  width: 1800%;
-  margin-top: 20px;
-  margin-bottom: 0;
-  left: 0;
-  animation: 60s slider infinite;
-}
-#slider figure img {
-  width: 5.555555555555556%;
-  float: left;
-}
-@keyframes slider {
-  0% {
-    left: 0;
-  }
-  5.555555555555556% {
-    left: -100%;
-  }
-  11.1111111% {
-    left: -200%;
-  }
-  16.6666667% {
-    left: -200%;
-  }
-  22.2222222% {
-    left: -300%;
-  }
-  27.7777778% {
-    left: -400%;
-  }
-  33.3333333% {
-    left: -500%;
-  }
-  38.8888889% {
-    left: -600%;
-  }
-  44.4444444% {
-    left: -700%;
-  }
-  50% {
-    left: -800%;
-  }
-  55.5555556% {
-    left: -900%;
-  }
-  61.1111111% {
-    left: -1000%;
-  }
-  66.6666667% {
-    left: -1100%;
-  }
-  72.2222222% {
-    left: -1200%;
-  }
-  77.7777778% {
-    left: -1300%;
-  }
-  83.3333333% {
-    left: -1400%;
-  }
-  88.8888889% {
-    left: -1500%;
-  }
-  94.4444444% {
-    left: -1600%;
-  }
-  100% {
-    left: -1700%;
-  }
-}
-@media (max-width: 481px) {
-  #slider {
-    height: 320px;
-  }
-  .tablet {
-    display: none;
-  }
-  .desktop {
-    display: none;
-  }
-  .BigScreen {
-    display: none;
-  }
-}
-@media (min-width: 481px) and (max-width: 769px) {
-  #slider {
-    height: 512px;
-    margin-bottom: 30px;
-  }
-  .mobile {
-    display: none;
-  }
-  .desktop {
-    display: none;
-  }
-  .BigScreen {
-    display: none;
-  }
-}
-@media (min-width: 769px) and (max-width: 1026px) {
-  #slider {
-    height: 683px;
-    margin-bottom: 30px;
-  }
-  .mobile {
-    display: none;
-  }
-  .tablet {
-    display: none;
-  }
-  .BigScreen {
-    display: none;
-  }
-}
-@media (min-width: 1026px) and (max-width: 3000px) {
-  #slider {
-    height: 1000px;
-  }
-  .mobile {
-    display: none;
-  }
-  .tablet {
-    display: none;
-  }
-  .desktop {
-    display: none;
-  }
-}
-/*
-@media (min-width: 1026px) and(min-width: 1280px) {
-  .tablet {
-    display: none;
-    visibility: hidden;
-  }
-  .mobile {
-    display: none;
-    visibility: hidden;
-  }
-}
-@media (min-width: 1281px) {
-} */
-
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -522,7 +388,8 @@ section {
 # About
 --------------------------------------------------------------*/
 #why-us {
-  padding-top: 30px;
+  padding-top: 50px;
+  padding-bottom: 10px;
 }
 .about .content {
   padding: 30px 0;
@@ -574,6 +441,9 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+#contact {
+  padding-top: 0;
+}
 .contact .contact-info {
   margin-bottom: 20px;
   text-align: center;
@@ -697,6 +567,9 @@ section {
   .contact .contact-phone,
   .contact .contact-email {
     padding: 20px 0;
+  }
+  .instagram-center {
+    padding-left: 150%;
   }
 }
 

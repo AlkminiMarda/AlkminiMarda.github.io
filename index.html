@@ -27,6 +27,8 @@
  
  <!-- Template Main CSS File -->
  <link href="assets/css/style.css" rel="stylesheet">
+ <link rel="stylesheet" href="assets/css/carousel.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
  <!-- Uppercase/First letter logo -->
  <style type="text/css" media="all">
    p {font-weight: bold;}
@@ -40,7 +42,7 @@
   <header id="header" class="fixed-top d-flex align-items-center">
    <div class="container d-flex align-items-center justify-content-between">
   
-    <h1 class="logo"><a href="index.html"><p><b>M</b>obilier</p></a></h1>
+    <h1 class="logo"><a href="index.html"><p><b>M</b>obilier<span class="trademark">&reg;</span></p></a></h1>
     <!-- image logo -->
     <!-- <a href="index.html" class="logo"><img src="assets/img/llama.jpg" alt="" class="img-fluid"></a> -->
   
@@ -63,95 +65,145 @@
 
   <!-- Rotating Banner -->
   <section id="Banner">
-  <div id="slider"> 
-    <figure>
-      <!-- Mobile -->
-      <div class="mobile">
-        <img src="assets/img/mobile pics/slide1.JPG" alt="">
-        <img src="assets/img/mobile pics/slide2.JPG" alt="">
-        <img src="assets/img/mobile pics/slide3.JPG" alt="">
-        <img src="assets/img/mobile pics/slide4.JPG" alt="">
-        <img src="assets/img/mobile pics/slide5.JPG" alt="">
-        <img src="assets/img/mobile pics/slide6.JPG" alt="">
-        <img src="assets/img/mobile pics/slide7.JPG" alt="">
-        <img src="assets/img/mobile pics/slide8.JPG" alt="">
-        <img src="assets/img/mobile pics/slide9.JPG" alt="">
-        <img src="assets/img/mobile pics/slide10.JPG" alt="">
-        <img src="assets/img/mobile pics/slide11.JPG" alt="">
-        <img src="assets/img/mobile pics/slide12.JPG" alt="">
-        <img src="assets/img/mobile pics/slide13.JPG" alt="">
-        <img src="assets/img/mobile pics/slide14.JPG" alt="">
-        <img src="assets/img/mobile pics/slide15.JPG" alt="">
-        <img src="assets/img/mobile pics/slide17.JPG" alt="">
-        <img src="assets/img/mobile pics/slide19.JPG" alt="">
-        <img src="assets/img/mobile pics/slide1.JPG" alt="">
+    <div class="slider">
+      <div class="slide active slide1">
+        <img src="assets/img/computer pics/slide1.JPG" alt="">
       </div>
-    <!-- Tablet -->
-    <div class="tablet">
-      <img src="assets/img/tablet pics/slide1.JPG" alt="">
-      <img src="assets/img/tablet pics/slide2.JPG" alt="">
-      <img src="assets/img/tablet pics/slide3.JPG" alt="">
-      <img src="assets/img/tablet pics/slide4.JPG" alt="">
-      <img src="assets/img/tablet pics/slide5.JPG" alt="">
-      <img src="assets/img/tablet pics/slide6.JPG" alt="">
-      <img src="assets/img/tablet pics/slide7.JPG" alt="">
-      <img src="assets/img/tablet pics/slide8.JPG" alt="">
-      <img src="assets/img/tablet pics/slide9.JPG" alt="">
-      <img src="assets/img/tablet pics/slide10.JPG" alt="">
-      <img src="assets/img/tablet pics/slide11.JPG" alt="">
-      <img src="assets/img/tablet pics/slide12.JPG" alt="">
-      <img src="assets/img/tablet pics/slide13.JPG" alt="">
-      <img src="assets/img/tablet pics/slide14.JPG" alt="">
-      <img src="assets/img/tablet pics/slide15.JPG" alt="">
-      <img src="assets/img/tablet pics/slide17.JPG" alt="">
-      <img src="assets/img/tablet pics/slide19.JPG" alt="">
-      <img src="assets/img/tablet pics/slide1.JPG" alt="">
+      <div class="slide slide2">
+        <img src="assets/img/computer pics/slide2.JPG" alt="">
+      </div>
+      <div class="slide slide3">
+        <img src="assets/img/computer pics/slide3.JPG" alt="">
+      </div>
+      <div class="slide slide4">
+        <img src="assets/img/computer pics/slide4.JPG" alt="">
+      </div>
+      <div class="slide slide5">
+        <img src="assets/img/computer pics/slide5.JPG" alt="">
+      </div>
+      <div class="slide slide9">
+        <img src="assets/img/computer pics/slide9.JPG" alt="">
+      </div>
+      <div class="slide slide13">
+        <img src="assets/img/computer pics/slide13.JPG" alt="">
+      </div>
+      <div class="slide slide14">
+        <img src="assets/img/computer pics/slide14.JPG" alt="">
+      </div>
+      <div class="slide slide15">
+        <img src="assets/img/computer pics/slide12.JPG" alt="">
+      </div>
+      <div class="slide slide17">
+        <img src="assets/img/computer pics/slide16.JPG" alt="">
+      </div>
+      <div class="slide slide19">
+        <img src="assets/img/computer pics/slide18.JPG" alt="">
+      </div>
+      <div class="navigation">
+        <i class="fas fa-chevron-left prev-btn"></i>
+        <i class="fas fa-chevron-right next-btn"></i>
+      </div>
+      <div class="navigation-visibility">
+        <div class="slide-icon active"></div>
+        <div class="slide-icon"></div>
+        <div class="slide-icon"></div>
+        <div class="slide-icon"></div>
+        <div class="slide-icon"></div>
+        <div class="slide-icon"></div>
+        <div class="slide-icon"></div>
+        <div class="slide-icon"></div>
+        <div class="slide-icon"></div>
+        <div class="slide-icon"></div>
+        <div class="slide-icon"></div>
+      </div>
     </div>
-    <!-- Desktop -->
-    <div class="desktop">
-      <img src="assets/img/computer pics/slide1.JPG" alt="">
-      <img src="assets/img/computer pics/slide2.JPG" alt="">
-      <img src="assets/img/computer pics/slide3.JPG" alt="">
-      <img src="assets/img/computer pics/slide4.JPG" alt="">
-      <img src="assets/img/computer pics/slide5.JPG" alt="">
-      <img src="assets/img/computer pics/slide6.JPG" alt="">
-      <img src="assets/img/computer pics/slide7.JPG" alt="">
-      <img src="assets/img/computer pics/slide8.JPG" alt="">
-      <img src="assets/img/computer pics/slide9.JPG" alt="">
-      <img src="assets/img/computer pics/slide10.JPG" alt="">
-      <img src="assets/img/computer pics/slide11.JPG" alt="">
-      <img src="assets/img/computer pics/slide12.JPG" alt="">
-      <img src="assets/img/computer pics/slide13.JPG" alt="">
-      <img src="assets/img/computer pics/slide14.JPG" alt="">
-      <img src="assets/img/computer pics/slide15.JPG" alt="">
-      <img src="assets/img/computer pics/slide16.JPG" alt="">
-      <img src="assets/img/computer pics/slide18.JPG" alt="">
-      <img src="assets/img/computer pics/slide1.JPG" alt="">
-    </div>
-    <!-- Big screen -->
-    <div class="BigScreen">
-      <img src="assets\img\IMG_1571.JPG" alt="">
-      <img src="assets\img\IMG_1582.JPG" alt="">
-      <img src="assets\img\IMG_1573.JPG" alt="">
-      <img src="assets\img\IMG_1574.JPG" alt="">
-      <img src="assets\img\IMG_1575.JPG" alt="">
-      <img src="assets\img\IMG_1576.JPG" alt="">
-      <img src="assets\img\IMG_1584.JPG" alt="">
-      <img src="assets/img/IMG_1578_original.JPG" alt="">
-      <img src="assets\img\IMG_1579.JPG" alt="">
-      <img src="assets\img\IMG_1580.JPG" alt="">
-      <img src="assets\img\IMG_1581.JPG" alt="">
-      <img src="assets\img\IMG_1583.JPG" alt="">
-      <img src="assets\img\IMG_1585.JPG" alt="">
-      <img src="assets\img\IMG_1567.JPG" alt="">
-      <img src="assets\img\IMG_1568.JPG" alt="">
-      <img src="assets\img\IMG_1569.JPG" alt="">
-      <img src="assets\img\IMG_1570.JPG" alt="">
-      <img src="assets\img\IMG_1571.JPG" alt="">
-    </div>
-    </figure>
-  </div>
   </section>
+
+  <script type="text/javascript">
+    const slider = document.querySelector(".slider");
+    const nextBtn = document.querySelector(".next-btn");
+    const prevBtn = document.querySelector(".prev-btn");
+    const slides = document.querySelectorAll(".slide");
+    const slideIcons = document.querySelectorAll(".slide-icon");
+    const numberOfSlides = slides.length;
+    var slideNumber = 0;
+
+    //image slider next button
+    nextBtn.addEventListener("click", () => {
+      slides.forEach((slide) => {
+        slide.classList.remove("active");
+      });
+      slideIcons.forEach((slideIcon) => {
+        slideIcon.classList.remove("active");
+      });
+
+      slideNumber++;
+
+      if(slideNumber > (numberOfSlides - 1)){
+        slideNumber = 0;
+      }
+
+      slides[slideNumber].classList.add("active");
+      slideIcons[slideNumber].classList.add("active");
+
+
+    });
+
+    //image slider previous button
+    prevBtn.addEventListener("click",() => {
+      slides.forEach((slide) => {
+        slide.classList.remove("active");
+      });
+      slideIcons.forEach((slideIcon) => {
+        slideIcon.classList.remove("active");
+      });
+
+      slideNumber--;
+
+      if (slideNumber < 0 ) {
+        slideNumber = numberOfSlides - 1;
+      }
+
+      slides[slideNumber].classList.add("active");
+      slideIcons[slideNumber].classList.add("active");
+    });
+
+    //image slider autoplay
+    var playSlider;
+
+    var repeater = () => {
+      playSlider = setInterval(function(){
+        slides.forEach((slide) => {
+          slide.classList.remove("active");
+        });
+        slideIcons.forEach((slideIcon) => {
+          slideIcon.classList.remove("active");
+        });
+
+        slideNumber++;
+
+        if (slideNumber > (numberOfSlides - 1)) {
+          slideNumber = 0;
+        }
+
+        slides[slideNumber].classList.add("active");
+        slideIcons[slideNumber].classList.add("active");
+      }, 10000);
+    }
+    repeater();
+
+    //stop the image slider autoplay on touch
+    slider.addEventListener("touchstart", () =>{
+      clearInterval(playSlider);
+    });
+
+    //stop the image slider autoplay on mousedown
+      slider.addEventListener("mousedown", () => {
+        clearInterval(playSlider);
+      });
+    
+
+  </script>
 
 
 
@@ -216,7 +268,7 @@
       <div class="col-md-4">
       <div class="social-links mt-3">
         <a href="https://www.instagram.com/mobilier_mardas/" target="_blank" class="instagram"><i
-            class="bx bxl-instagram"></i></a>
+            class="bx bxl-instagram instagram-center"></i></a>
             <!-- <h3>Instagram</h3> --><br><br>
        </div>
       </div>
