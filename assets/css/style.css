@@ -703,6 +703,9 @@ section {
   line-height: 1;
   font-weight: 700;
 }
+#footer .footer-top .footer-info strong {
+  color: #fff;
+}
 #footer .footer-top .footer-info p {
   font-size: 14px;
   line-height: 24px;
