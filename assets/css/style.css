@@ -806,3 +806,8 @@ section {
 #footer .phone-numbers {
   color: white;
 }
+#contact .section-title,
+#contact .section-title h2 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
