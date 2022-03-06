@@ -442,7 +442,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 #contact {
-  padding-top: 0;
+  padding-top: 30px;
 }
 .contact .contact-info {
   margin-bottom: 20px;
@@ -804,7 +804,8 @@ section {
   padding-top: 30px;
 }
 #footer .phone-numbers {
-  color: white;
+  color: inherit;
+  text-decoration: none;
 }
 #contact .section-title,
 #contact .section-title h2 {

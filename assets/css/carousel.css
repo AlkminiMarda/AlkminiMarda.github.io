@@ -79,7 +79,7 @@
 }
 @media (min-width: 281px) and (max-width: 481px) {
   .slider {
-    height: 320px;
+    height: 310px;
   }
 }
 @media (min-width: 481px) and (max-width: 769px) {
