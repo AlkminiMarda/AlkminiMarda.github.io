@@ -767,9 +767,9 @@ section {
   display: inline-block;
   line-height: 1;
 }
-#footer .footer-top .footer-links ul a:hover {
+/* #footer .footer-top .footer-links ul a:hover {
   color: #741d1d;
-}
+} */
 #footer .footer-top .footer-newsletter form {
   margin-top: 30px;
   background: #fff;
